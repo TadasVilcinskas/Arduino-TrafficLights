@@ -64,6 +64,6 @@ The HC-SR04 ultrasonic sensor measures distance by emitting an ultrasonic sound 
 ### Programming Guide
 The code is designed to manage pedestrian and car traffic at a crosswalk based on the proximity of a person approaching. A function is used to trigger the ultrasonic sensor to emit sound pulses, it measures the time taken for the echo to return and calculates the distance to any detected object. The distance is outputted to the Serial Monitor for debugging. The code continuously checks if the distance to an object (a pedestrian) is within a set threshold (30 cm for prototype purposes). If an object is detected, the car light turns yellow and then red, while the pedestrian light turns green, allowing them to cross. The pedestrian light remains green as long as someone is within range. Once no object is detected, there is a 6-second wait loop to ensure that all pedestrians are able to pass and to be able to detect any newly arriving ones. Afterwards, the lights simply reset, turning the car light back to green and the pedestrian light to red. The program repeats this cycle, checking continuously for pedestrians and adjusting the lights accordingly, ensuring a responsive system that provides safety, by making adjustments based on real-time distance data from the ultrasonic sensor.
 
-Link: [GitHub Repository](https://github.com/philip344/solar_project/)
+Link to the: [code](https://github.com/tadasvilcinskas/Java-TrafficLights/system_code.ino/)
 
 
