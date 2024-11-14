@@ -61,7 +61,7 @@ The HC-SR04 ultrasonic sensor measures distance by emitting an ultrasonic sound 
   - Environmental Conditions: extreme weather or wind may affect readings, since it's used outdoors
 
 ### Circuit Diagram
-A comprehensive circuit diagram is provided below to show the complete wiring for this project, the details of how each component is connected to the Arduino. [Link to the pdf version](https://github.com/user-attachments/files/17757295/Traffic.Lights.Project.pdf)
+A comprehensive circuit diagram is provided below to show the complete wiring for this project, the details of how each component is connected to the Arduino. [Download the pdf version](https://github.com/user-attachments/files/17757295/Traffic.Lights.Project.pdf)
 
 ![Traffic Lights Project-1](https://github.com/user-attachments/assets/299257a1-dcf0-4712-998f-1c18ab525742)
 
