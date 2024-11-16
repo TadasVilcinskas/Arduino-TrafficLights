@@ -8,10 +8,7 @@
    - [3.2 Sensor Characteristics](#sensor-characteristics)
 4. [Circuit Diagram](#circuit-diagram)
 5. [Code Explanation](#code-explanation)
-6. [Assembly](#assembly)
-7. [Future Improvements](#future-improvements)
-8. [Conclusion](#conclusion)
-9. [References](#references)
+7. [Conclusion](#conclusion)
 
 ---
 
@@ -71,4 +68,5 @@ The code is designed to manage pedestrian and car traffic at a crosswalk based o
 
 [Link to the code](https://github.com/TadasVilcinskas/Arduino-TrafficLights/blob/main/system_code.ino/)
 
-
+### Conclusion
+This traffic lights project successfully demonstrates a simple, yet effective control system. By using the HC-SR04 ultrasonic distance sensor, the system detects pedestrians approaching the crossing and dynamically adjusts the traffic lights, prioritizing pedestrian movement while managing car traffic effectively. With additional refinements, it has the potential to be a practical model, not only showcasing the applications of automation in traffic management, but also emphasizing the potential of microcontroller-based solutions in addressing real-world problems.
